@@ -6,7 +6,7 @@ pipeline {
      }
     environment {
     DOCKERHUB_CREDENTIALS = credentials('evidence-dockerhub')
-    APP_NAME = "emakonza/amazon"
+    APP_NAME = "evidence900/amazon"
     }
     stages { 
         stage('SCM Checkout') {
